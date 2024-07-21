@@ -14,3 +14,9 @@ def greedy_activity_selection(activities):
 activities = [(1, 3), (2, 5), (4, 7), (1, 8), (5, 9), (8, 10)]
 selected = greedy_activity_selection(activities)
 print("Selected activities (Greedy):", selected)
+
+
+#Expect this output
+'''
+Selected activities (Greedy): [(1, 3), (4, 7), (8, 10)]
+'''
